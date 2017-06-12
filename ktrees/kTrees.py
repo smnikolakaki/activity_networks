@@ -344,8 +344,6 @@ def main():
         (kTreesSolutionComponent,kTreesEdgeComponent)\
             = runkTrees(Graph,k,"strong")
 
-        print 'K Trees Solution Component:',kTreesSolutionComponent
-        print 'K Trees Edges Component:',kTreesEdgeComponent
         objective_value_kTrees,penalty,cost=\
             computeObjectiveValue(LamdaGraph,kTreesSolutionComponent,kTreesEdgeComponent,False)
 
